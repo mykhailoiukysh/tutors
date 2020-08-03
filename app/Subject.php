@@ -20,7 +20,7 @@ class Subject extends Model
      *
      * @var array
      */
-    protected $fillable = [
+    protected $fillable = [s
         'subjectName', 'url',
     ];
 
