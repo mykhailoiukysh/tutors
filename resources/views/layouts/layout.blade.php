@@ -38,8 +38,8 @@
                         <a href="#">info@tutorsweb.org</a>
                     </div><!-- /.topbar-one__left -->
                     <div class="topbar-one__right">
-                        <a href="/login">Login</a>
-                         <a href="/student-register">Sign up</a>
+                        <a href="#">Login</a>
+                         <a href="#">Sign up</a>
                     </div><!-- /.topbar-one__right -->
                 </div><!-- /.container -->
             </div><!-- /.topbar-one -->

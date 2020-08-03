@@ -42,8 +42,8 @@
                     {{--<a href="#"><i class="fab fa-instagram"></i></a>--}}
                 </div><!-- /.topbar-one__left -->
                 <div class="topbar-one__right">                    
-                    <a href="/login">Login</a>
-                    <a href="/student-register">Sign up</a>
+                    <a href="#">Login</a>
+                    <a href="#">Sign up</a>
                     <!-- a href="/tutor-register">Become a Tutor</a -->
                 </div><!-- /.topbar-one__right -->
             </div><!-- /.container -->
