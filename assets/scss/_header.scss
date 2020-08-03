@@ -355,45 +355,86 @@
     }
 }
 
-.site-header__header-two {
-    .container {
-        @media (min-width: 1200px) {
-            padding-left: 60px;
-            padding-right: 60px;
-            max-width: 100%;
-        }
-    }
+//.site-header__header-two {
+//    .container {
+//        @media (min-width: 1200px) {
+//            padding-left: 60px;
+//            padding-right: 60px;
+//            max-width: 100%;
+//        }
+//    }
+//
+//    .header-navigation .container .logo-box {
+//        left: 60px;
+//        flex: wrap;
+//        width: 100%;
+//    }
+//
+//    .header-navigation .container .right-side-box {
+//        right: 60px;
+//    }
+//
+//    .header-navigation ul.navigation-box>li {
+//        padding: 55px 0;
+//    }
+//
+//    .header-navigation .main-navigation {
+//        text-align: center;
+//        padding-right: 0;
+//        padding-left: 125px;
+//    }
+//
+//    .header__social {
+//        margin: 0;
+//    }
+//
+//    .stricked-menu {
+//
+//        ul.navigation-box>li {
+//            padding-top: 40px;
+//            padding-bottom: 40px;
+//        }
+//    }
+//}
 
-    .header-navigation .container .logo-box {
-        left: 60px;
-        flex: wrap;
-        width: 100%;
-    }
+.site-header__home-two {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    border-bottom: 2px solid rgba(#fff, .05);
 
-    .header-navigation .container .right-side-box {
-        right: 60px;
-    }
-
-    .header-navigation ul.navigation-box>li {
-        padding: 55px 0;
+    .topbar-one {
+        //background-color: $thm-base-color-2;
     }
 
     .header-navigation .main-navigation {
         text-align: center;
         padding-right: 0;
-        padding-left: 125px;
+    }
+
+    .header__social a,
+    .header-navigation ul.navigation-box>li>a {
+        color: #fff;
+
+        &:hover {
+            color: $thm-base-color;
+        }
+    }
+
+    .header-navigation ul.navigation-box>li.current>a,
+    .header-navigation ul.navigation-box>li:hover>a {
+        color: $thm-base-color;
+    }
+
+    .stricked-menu {
+        background-color: $thm-black;
+
     }
 
     .header__social {
         margin: 0;
-    }
-
-    .stricked-menu {
-
-        ul.navigation-box>li {
-            padding-top: 40px;
-            padding-bottom: 40px;
-        }
     }
 }
 

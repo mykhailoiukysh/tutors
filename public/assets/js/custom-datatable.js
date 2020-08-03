@@ -37,7 +37,7 @@ $('.type-menu').click(function(){
 
     $('#datatable').remove();
 
-    let no = 1;
+    let no = 0;
     let code = '<div id="datatable"><table id="datatable_1" class="table table-striped table-bordered" style="width:100%">\n' +
         '                            <thead>\n' +
         '                            <tr>\n' +

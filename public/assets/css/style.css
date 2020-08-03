@@ -7215,3 +7215,23 @@ a:visited {
   color: #ff6d15;
 
 }
+
+.header-custom {
+  background: white;
+}
+
+.header-custom .topbar-one {
+  background: #022c46;
+}
+
+.header-custom .kipso-icon-menu {
+  color: #000000;
+}
+
+.header-custom .logo-box {
+  background: white;
+}
+
+.navigation-box li a {
+  text-align: center!important;
+}

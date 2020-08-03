@@ -3,10 +3,10 @@
 
 @section('content')
         <section class="slider-three">
-            <img src="assets/images/slider-3-icon-1-2.png" class="slider-three__icon-2" alt="">
-            <img src="assets/images/slider-3-icon-1-3.png" class="slider-three__icon-3" alt="">
-            <img src="assets/images/slider-3-icon-1-4.png" class="slider-three__icon-4" alt="">
-            <img src="assets/images/slider-3-icon-1-5.png" class="slider-three__icon-5" alt="">
+            <img src="{{asset('assets/images/slider-3-icon-1-2.png')}}" class="slider-three__icon-2" alt="">
+            <img src="{{asset('assets/images/slider-3-icon-1-3.png')}}" class="slider-three__icon-3" alt="">
+            <img src="{{asset('assets/images/slider-3-icon-1-4.png')}}" class="slider-three__icon-4" alt="">
+            <img src="{{asset('assets/images/slider-3-icon-1-5.png')}}" class="slider-three__icon-5" alt="">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
@@ -31,7 +31,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="course-category-three__single">
-                            <img src="assets/images/english.png" alt="">
+                            <img src="{{asset('')}}assets/images/english.png" alt="">
                             <div class="course-category-three__content">
                                 <h3 class="course-category-three__title"><a href="#">English</a></h3>
                                 <!-- /.course-category-three__title -->
@@ -42,7 +42,7 @@
                     </div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="course-category-three__single">
-                            <img src="assets/images/mathematics.png" alt="">
+                            <img src="{{asset('')}}assets/images/mathematics.png" alt="">
                             <div class="course-category-three__content">
                                 <h3 class="course-category-three__title"><a href="#"> Mathematics  </a></h3>
                                 <!-- /.course-category-three__title -->
@@ -53,7 +53,7 @@
                     </div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="course-category-three__single">
-                            <img src="assets/images/science.png" alt="">
+                            <img src="{{asset('')}}assets/images/science.png" alt="">
                             <div class="course-category-three__content">
                                 <h3 class="course-category-three__title"><a href="#">Chemistry </a></h3>
                                 <!-- /.course-category-three__title -->
@@ -64,7 +64,7 @@
                     </div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="course-category-three__single">
-                            <img src="assets/images/tamil.png" alt="">
+                            <img src="{{asset('')}}assets/images/tamil.png" alt="">
                             <div class="course-category-three__content">
                                 <h3 class="course-category-three__title"><a href="#">Tamil</a></h3>
                                 <!-- /.course-category-three__title -->
@@ -85,7 +85,7 @@
                     mission is to prepare   <br>
                     you for your examination.</h2><!-- /.cta-one__title -->
                 <div class="cta-one__btn-block">
-                    <a href="/about" class="thm-btn cta-one__btn">Learn More</a><!-- /.thm-btn -->
+                    <a href="" class="thm-btn cta-one__btn">Learn More</a><!-- /.thm-btn -->
                 </div><!-- /.cta-one__btn-block -->
             </div><!-- /.container -->
         </section><!-- /.cta-one -->
@@ -93,7 +93,7 @@
 
         
         <section class="cta-six thm-gray-bg">
-            <img src="assets/images/line-stripe-2.png" class="cta-six__line" alt="">
+            <img src="{{asset('')}}assets/images/line-stripe-2.png" class="cta-six__line" alt="">
             <div class="container-fluid clearfix">
                 <div class="cta-six__left">
                     <div class="cta-six__content">
@@ -101,11 +101,11 @@
                             <h2 class="block-title__title">Start Preparing 
                             Now!</h2><!-- /.block-title__title -->
                         </div><!-- /.block-title -->
-                        <img src="assets/images/online.jpg" alt="">
+                        <img src="{{asset('')}}assets/images/online.jpg" alt="">
                     </div><!-- /.cta-six__content -->
                 </div><!-- /.cta-six__left -->
                 <div class="cta-six__right">
-                    <img src="assets/images/onlineT.jpg" alt="">
+                    <img src="{{asset('')}}assets/images/onlineT.jpg" alt="">
                    <!--  <h2 class="cta-six__title">More than <span class="counter">7840</span> students are registered</h2> -->
                     <!-- /.cta-six__title -->
                 </div><!-- /.cta-six__right -->

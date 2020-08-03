@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> TutorsWeb.org || {{ ucfirst(Request::segment(1)) }} </title>
+    <title> TutorsWeb.org {{ ucfirst(Request::segment(1)) }} </title>
     <link rel="shortcut icon" href="{{asset('assets/images/favicons/favicon.png')}}">
     <link rel="apple-touch-icon" sizes="180x180" href="{{asset('assets/images/favicons/apple-touch-icon.png')}}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{asset('assets/images/favicons/favicon-32x32.png')}}">
@@ -15,9 +15,9 @@
     <!-- plugin scripts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,500i,600,700,800%7CSatisfy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('assets/css/animate.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}} ">
+    <link rel="stylesheet" href="{{asset('assets/css/owl.carousel.min.css')}} ">
+    <link rel="stylesheet" href="{{asset('assets/css/owl.theme.default.min.css')}} ">
     <link rel="stylesheet" href="{{asset('assets/plugins/fontawesome-free-5.11.2-web/css/all.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/plugins/kipso-icons/style.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/magnific-popup.css')}}">
@@ -27,28 +27,25 @@
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
 
-    @yield('head')
+    {{--@yield('head')--}}
 </head>
 
 <body>
-   
+
     <div class="page-wrapper">
+        <header class="site-header site-header__home-three site-header__inner-page header-custom">
         <div class="topbar-one">
             <div class="container">
                 <div class="topbar-one__left">
                     <a href="#">info@tutorsweb.org</a>
-                    <!-- a href="tel:+6587422708">+6587422708</a -->
-                    {{--<a href="#"><i class="fab fa-youtube"></i></a>--}}
-                    {{--<a href="#"><i class="fab fa-instagram"></i></a>--}}
                 </div><!-- /.topbar-one__left -->
-                <div class="topbar-one__right">                    
+                <div class="topbar-one__right">
                     <a href="#">Login</a>
                     <a href="#">Sign up</a>
-                    <!-- a href="/tutor-register">Become a Tutor</a -->
                 </div><!-- /.topbar-one__right -->
             </div><!-- /.container -->
         </div><!-- /.topbar-one -->
-        <header class="site-header site-header__header-one site-header__inner-page ">
+
             <nav class="navbar navbar-expand-lg navbar-light header-navigation stricky">
                 <div class="container clearfix">
                     <!-- Brand and toggle get grouped for better mobile display -->
@@ -56,10 +53,6 @@
                         <a class="navbar-brand" href="/">
                             <img src="{{asset('assets/images/logo-dark.png')}}" class="main-logo" width="128" alt="Awesome Image" />
                         </a>
-                       <!--  <div class="header__social"> 
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                        </div> --><!-- /.header__social -->
                         <button class="menu-toggler" data-target=".main-navigation">
                             <span class="kipso-icon-menu"></span>
                         </button>
@@ -139,7 +132,7 @@
                             <div class="footer-widget footer-widget__gallery">
                                <!--  <h2 class="footer-widget__title">Gallery</h2> -->
 
-                              
+
                             </div><!-- /.footer-widget -->
                         </div><!-- /.col-lg-3 -->
                         <div class="col-xl-3 col-lg-6 col-sm-12">

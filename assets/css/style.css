@@ -7211,4 +7211,8 @@ Custom CSS
     display: inline-block;
     font-size: 20px;
 }
+
+.menu-toggler {
+  float: right;
+}
  

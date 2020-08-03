@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> TutorsWeb.org || {{ Request::segment(1) }}  </title>
+    <title> TutorsWeb.org {{ Request::segment(1) }}  </title>
     <link rel="shortcut icon" href="{{asset('assets/images/favicons/favicon.png')}}">
     <link rel="apple-touch-icon" sizes="180x180" href="{{asset('assets/images/favicons/apple-touch-icon.png')}}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{asset('assets/images/favicons/favicon-32x32.png')}}">
@@ -23,9 +23,9 @@
     <link rel="stylesheet" href="{{asset('assets/css/magnific-popup.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/vegas.min.css')}}">
 
-    <!-- template styles {{asset(' ')}} -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- template styles -->
+    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
 </head>
 
 <body>
@@ -48,7 +48,7 @@
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="logo-box clearfix">
                         <a class="navbar-brand" href="/">
-                            <img src="assets/images/logo-light.png" class="main-logo" width="128" alt="Awesome Image" />
+                            <img src="{{asset('assets/images/logo-light.png')}}" class="main-logo" width="128" alt="Awesome Image" />
                         </a>
                         <button class="menu-toggler" data-target=".main-navigation">
                             <span class="kipso-icon-menu"></span>
