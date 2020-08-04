@@ -46,7 +46,7 @@
             </div><!-- /.container -->
         </div><!-- /.topbar-one -->
 
-            <nav class="navbar navbar-expand-lg navbar-light header-navigation stricky">
+            <nav class="navbar navbar-expand-lg navbar-dark header-navigation stricky">
                 <div class="container clearfix">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="logo-box clearfix">
@@ -59,7 +59,7 @@
                     </div><!-- /.logo-box -->
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="main-navigation">
-                        <ul class=" navigation-box">
+                        <ul class="navigation-box navigation-box-light">
                             <li @if( ucfirst(Request::segment(1)) == " " ) class="current" @endif>
                                 <a href="/">Home</a>
                             </li>

@@ -183,8 +183,8 @@
     margin-top: 4px;
   }
   .header-navigation .container .right-side-box {
-    top: 20px;
-    right: 15px;
+    top: 15px;
+    right: 65px;
     -webkit-transform: translateY(0%);
             transform: translateY(0%);
   }
@@ -522,7 +522,7 @@
     display: none;
   }
   .site-footer__scroll-top {
-    left: 120%;
+    left: 230% !important;
   }
   .block-title__title {
     font-size: 40px;
@@ -601,16 +601,16 @@
     float: right !important;
   }
   .site-header__home-three .header-navigation .container .right-side-box {
-    top: 30px;
+    /*top: 30px;*/
   }
   .about-one__img::before {
     display: none;
   }
   .site-footer__scroll-top {
-    left: 90%;
-    width: 40px;
-    height: 40px;
-    top: 10%;
+    /*left: 90%;*/
+    /*width: 40px;*/
+    /*height: 40px;*/
+    /*top: 10%;*/
   }
 }
 
