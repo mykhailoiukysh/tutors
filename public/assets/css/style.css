@@ -7232,19 +7232,19 @@ a:visited {
 }
 
 .header-custom {
-  background: white;
+  background: white!important;
 }
 
 .header-custom .topbar-one {
-  background: #022c46;
+  background: #022c46!important;
 }
 
 .header-custom .kipso-icon-menu {
-  color: #000000;
+  color: #000000!important;
 }
 
 .header-custom .logo-box {
-  background: white;
+  background: white!important;
 }
 
 .navigation-box li a {
@@ -7252,6 +7252,6 @@ a:visited {
 }
 
 .navigation-box-light {
-  background-color: #ffffff;
-  overflow: hidden;
+  background-color: #ffffff!important;
+  overflow: hidden!important;
 }
