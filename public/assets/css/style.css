@@ -34,7 +34,7 @@
 * 1. common styles
 */
 body {
-  font-family: "Poppins";
+  /*font-family: "Poppins";*/
   color: #81868a;
   font-size: 16px;
   line-height: 34px;
@@ -918,6 +918,10 @@ a:visited {
 .header-custom .header-navigation ul.navigation-box > li.current > a,
 .header-custom .header-navigation ul.navigation-box > li:hover > a {
   color: #f16101;
+}
+
+.header-custom .stricked-menu {
+  background-color: #ffffff !important;
 }
 
 .site-header__home-three .stricked-menu {
@@ -7216,10 +7220,12 @@ a:visited {
 
 .type-menu {
   width: 100%;
-  display: block;
+  display: inline;
   color: #2f2f2f;
   border-bottom: solid white 2px;
   margin-bottom: 10px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
 }
 
 .type-menu:hover {
@@ -7233,6 +7239,7 @@ a:visited {
 
 .header-custom {
   background: white!important;
+  position: relative!important;
 }
 
 .header-custom .topbar-one {

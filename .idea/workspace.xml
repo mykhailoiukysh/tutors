@@ -3,9 +3,739 @@
   <component name="ChangeListManager">
     <list default="true" id="f94be507-3cc2-4d2c-a527-d43ccda3930a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/css/fontastic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/css/style.blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/css/style.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/css/style.green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/css/style.pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/css/style.red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/css/style.sea.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/css/style.violet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/data/addresses.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/data/countries.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/data/restaurants-geojson.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/fonts/dashboard.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/fonts/dashboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/fonts/dashboard.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/fonts/dashboard.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/icons-reference/fonts/dashboard.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/icons-reference/fonts/dashboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/icons-reference/fonts/dashboard.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/icons-reference/fonts/dashboard.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/icons-reference/icons-reference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/icons-reference/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/avatar-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/avatar-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/avatar-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/avatar-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/avatar-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/avatar-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/avatar-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/avatar-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/avatar-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/avatar-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/avatar-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/avatar-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/brand/brand-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/brand/brand-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/brand/brand-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/brand/brand-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/brand/brand-5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/brand/brand-6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/AD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/AE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/AF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/AG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/AI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/AL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/AN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/AQ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/AR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/AS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/AT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/AU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/AW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/AX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/AZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/BA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/BB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/BD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/BE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/BF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/BG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/BH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/BI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/BJ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/BL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/BM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/BN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/BO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/BR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/BS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/BT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/BW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/BY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/BZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/CA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/CC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/CD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/CF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/CG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/CH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/CI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/CK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/CL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/CM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/CN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/CO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/CR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/CT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/CU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/CV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/CW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/CX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/CY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/CZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/DE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/DJ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/DK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/DM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/DO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/DZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/EC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/EE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/EG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/EH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/ER.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/ES.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/ET.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/EU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/FI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/FJ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/FK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/FM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/FO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/FR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/GA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/GB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/GD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/GE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/GG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/GH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/GI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/GL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/GM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/GN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/GQ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/GR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/GS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/GT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/GU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/GW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/GY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/HK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/HN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/HR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/HT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/HU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/IC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/ID.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/IE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/IL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/IM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/IN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/IQ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/IR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/IS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/IT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/JE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/JM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/JO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/JP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/KE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/KG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/KH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/KI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/KM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/KN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/KP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/KR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/KW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/KY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/KZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/LA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/LB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/LC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/LI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/LK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/LR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/LS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/LT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/LU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/LV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/LY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/MA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/MC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/MD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/ME.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/MF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/MG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/MH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/MK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/ML.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/MM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/MN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/MO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/MP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/MQ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/MR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/MS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/MT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/MU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/MV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/MW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/MX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/MY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/MZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/NA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/NC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/NF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/NG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/NI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/NL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/NO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/NP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/NR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/NU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/NZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/OM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/PA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/PE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/PF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/PG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/PH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/PK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/PL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/PN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/PR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/PS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/PT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/PW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/PY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/QA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/RE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/RO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/RS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/RU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/RW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/SA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/SB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/SC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/SD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/SG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/SH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/SI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/SK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/SL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/SM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/SN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/SO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/SR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/SS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/ST.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/SV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/SX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/SY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/SZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/TC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/TD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/TF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/TG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/TH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/TJ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/TK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/TL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/TM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/TN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/TO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/TR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/TT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/TV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/TW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/TZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/UA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/UG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/US.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/UY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/UZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/VA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/VC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/VE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/VG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/VI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/VN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/VU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/WF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/WS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/YE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/YT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/ZA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/ZM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/ZW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/_abkhazia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/_basque-country.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/_british-antarctic-territory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/_commonwealth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/_england.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/_gosquared.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/_kosovo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/_mars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/_nagorno-karabakh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/_nato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/_northern-cyprus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/_olympics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/_red-cross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/_scotland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/_somaliland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/_south-ossetia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/_united-nations.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/_unknown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/flags/16/_wales.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/map-close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/map-marker-blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/map-marker-default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/map-marker-green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/map-marker-pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/map-marker-red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/map-marker-sea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/map-marker-violet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/map-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/mockup1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/mockup2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/mockup3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/mockup4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/mockup5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/mockup6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/mockup7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/multiselect-switch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/photos/paul-morris-116514-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/photos/restaurant-1430931071372-38127bd472b8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/photos/restaurant-1436018626274-89acd1d6ec9d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/photos/restaurant-1466978913421-dad2ebd01d17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/photos/restaurant-1477763858572-cda7deaa9bc5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/photos/restaurant-1504087697492-238a6bf49ce8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/photos/restaurant-1505275350441-83dcda8eeef5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/photos/restaurant-1508766917616-d22f3f1eea14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/photos/restaurant-1515164783716-8e6920f3e77c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/photos/victor-ene-1301123-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/project-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/project-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/project-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/project-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/img/template-mac.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/js/charts-custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/js/charts-home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/js/front.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/chart.js/Chart.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/chart.js/Chart.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/chart.js/Chart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/chart.js/Chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/chart.js/Chart.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/chart.js/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/font-awesome/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/additional-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_ar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_az.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_bg.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_bn_BD.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_bn_BD.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_ca.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_cs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_da.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_de.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_el.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_es.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_es_AR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_es_AR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_es_PE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_es_PE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_et.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_eu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_fa.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_fi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_fr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_ge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_ge.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_gl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_he.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_hr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_hu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_hy_AM.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_hy_AM.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_id.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_is.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_it.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_ja.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_ka.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_kk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_kk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_ko.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_lt.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_lv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_mk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_my.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_nl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_no.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_pl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_pt_BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_pt_BR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_pt_PT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_pt_PT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_ro.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_ru.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_sd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_sd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_si.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_sk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_sl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_sr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_sr_lat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_sr_lat.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_sv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_th.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_tj.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_tj.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_tr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_uk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_ur.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_ur.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_vi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_zh.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_zh_TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/messages_zh_TW.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/methods_de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/methods_de.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/methods_es_CL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/methods_es_CL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/methods_fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/methods_fi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/methods_it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/methods_it.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/methods_nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/methods_nl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/methods_pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery-validation/localization/methods_pt.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery.cookie/MIT-LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery.cookie/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery.cookie/cookie.jquery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery.cookie/jquery.cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/popper.js/esm/popper-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/popper.js/esm/popper-utils.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/popper.js/esm/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/popper.js/esm/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/popper.js/popper-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/popper.js/popper-utils.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/popper.js/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/popper.js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/popper.js/umd/popper-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/popper.js/umd/popper-utils.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/popper.js/umd/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/popper.js/umd/popper.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/vendor/popper.js/umd/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/overlays/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/overlays/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/overlays/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/overlays/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/overlays/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/overlays/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/overlays/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/overlays/08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/overlays/09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/vegas.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about-2-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about-2-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/author-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/become-form-angle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog-1-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog-1-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog-1-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog-1-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog-1-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog-2-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog-2-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog-2-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog-d-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/brand-1-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/certificate-1-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/certificate-1-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/chat-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/chat-1-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/circle-stripe-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/circle-stripe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/comment-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/comment-1-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/course-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/course-1-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/course-1-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/course-1-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/course-1-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/course-1-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/course-category-1-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/course-category-1-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/course-category-1-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/course-category-1-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/course-d-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/course-title-curve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/cta-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/cta-bg-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/cta-map-1-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/dot-pattern-1-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/dot-pattern-1-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/dot-pattern-1-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/english.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/fact-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/fact-1-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/fact-2-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicons/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicons/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicons/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicons/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicons/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicons/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicons/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/footer-1-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/footer-1-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/footer-1-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/footer-1-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/footer-1-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/footer-1-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery-1-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery-1-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery-1-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery-1-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery-1-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery-1-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery-1-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery-1-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/inner-bg-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/it.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/lc-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/lc-1-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/lc-1-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/line-stripe-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/line-stripe-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/line-stripe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/lp-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/lp-1-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/lp-1-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/marketing.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/mathematics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/meeting-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/online.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/onlineT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/page.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/patter-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/preloader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/qoute-1-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/science.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/scratch-1-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/slider-1-person-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/slider-1-person-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/slider-1-scratch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/slider-2-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/slider-3-1-old.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/slider-3-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/slider-3-2-old.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/slider-3-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/slider-3-icon-1-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/slider-3-icon-1-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/slider-3-icon-1-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/slider-3-icon-1-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/slider-3-icon-1-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/soft.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/tamil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/teacher-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/teacher-h3-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/teacher-h3-1-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/teacher.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/teacher02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/team-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/team-1-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/team-1-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/team-1-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/team-1-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/team-1-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/team-1-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/team-1-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/team-d-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/video-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/video-1-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/video-bg-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/TweenMax.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/countdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery.counterup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vegas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/wow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/fontawesome-free-5.11.2-web/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/fontawesome-free-5.11.2-web/css/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/fontawesome-free-5.11.2-web/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/fontawesome-free-5.11.2-web/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/fontawesome-free-5.11.2-web/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/fontawesome-free-5.11.2-web/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/fontawesome-free-5.11.2-web/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/fontawesome-free-5.11.2-web/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/fontawesome-free-5.11.2-web/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/fontawesome-free-5.11.2-web/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/fontawesome-free-5.11.2-web/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/fontawesome-free-5.11.2-web/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/fontawesome-free-5.11.2-web/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/fontawesome-free-5.11.2-web/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/fontawesome-free-5.11.2-web/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/fontawesome-free-5.11.2-web/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/fontawesome-free-5.11.2-web/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/kipso-icons/Read Me.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/kipso-icons/demo-files/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/kipso-icons/demo-files/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/kipso-icons/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/kipso-icons/fonts/kipso-icon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/kipso-icons/fonts/kipso-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/kipso-icons/fonts/kipso-icon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/kipso-icons/fonts/kipso-icon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/kipso-icons/selection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/kipso-icons/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_about.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_become-teacher.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_blog.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_brand.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_common.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_countdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_course.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_cta.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_faq.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_gallery.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_helper.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_inner-banner.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_mailchimp.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_meeting.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_pricing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_search-popup.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_slider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_team.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_testimonials.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_video.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/responsive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldfiles.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/bootstrap-material-design" beforeDir="false" afterPath="$PROJECT_DIR$/public/bootstrap-material-design" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/bootstrap-material-design/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/bootstrap-material-design/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/subjects.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/subjects.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor.zip" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,82 +747,23 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/css/responsive.css">
+        <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="608" column="26" selection-start-line="608" selection-start-column="3" selection-end-line="608" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/bg_layout.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="35" column="90" selection-start-line="35" selection-start-column="90" selection-end-line="35" selection-end-column="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/layout.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/inc/admin-header.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="79" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="79" />
+            <state relative-caret-position="262">
+              <caret line="7241" column="31" selection-start-line="7241" selection-start-column="31" selection-end-line="7241" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
+        <entry file="file://$PROJECT_DIR$/resources/views/front/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="7242" column="27" lean-forward="true" selection-start-line="7242" selection-start-column="27" selection-end-line="7242" selection-end-column="27" />
+            <state relative-caret-position="119">
+              <caret line="7" column="94" lean-forward="true" selection-start-line="7" selection-start-column="94" selection-end-line="7" selection-end-column="94" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/js/theme.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scss/_header.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6783">
-              <caret line="399" column="24" selection-start-line="399" selection-start-column="24" selection-end-line="399" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/front/howitwork.blade.php">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -107,17 +778,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>table</find>
-      <find>view all</find>
-      <find>processint</find>
-      <find>favicon.ico</find>
-      <find>bootstrap</find>
-      <find>del</find>
-      <find>delete</find>
-      <find>Home</find>
-      <find>About</find>
-      <find>subjectName</find>
-      <find>online</find>
       <find>&lt;title&gt;</find>
       <find>login</find>
       <find>logo-box clearfix</find>
@@ -137,6 +797,17 @@
       <find>favicon-1</find>
       <find>favicon</find>
       <find>site-footer__scroll-top</find>
+      <find>trans</find>
+      <find>body</find>
+      <find>Poppins</find>
+      <find>font-family</find>
+      <find>max-width</find>
+      <find>@</find>
+      <find>last-child</find>
+      <find>style</find>
+      <find>@media</find>
+      <find>slider-three__icon-5</find>
+      <find>header-custom</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -169,23 +840,23 @@
         <option value="$PROJECT_DIR$/app/General.php" />
         <option value="$PROJECT_DIR$/app/SubjectMenu.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/about.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/front/subjects.blade.php" />
         <option value="$PROJECT_DIR$/public/bootstrap-material-design/css/style.css" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/subjects.blade.php" />
         <option value="$PROJECT_DIR$/app/Subject.php" />
         <option value="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/resources/views/front/welcome.blade.php" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/scss/_header.scss" />
         <option value="$PROJECT_DIR$/public/assets/js/custom-datatable.js" />
         <option value="$PROJECT_DIR$/assets/css/responsive.css" />
-        <option value="$PROJECT_DIR$/public/assets/css/responsive.css" />
         <option value="$PROJECT_DIR$/resources/views/inc/admin-header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/bg_layout.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/subjects.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/css/responsive.css" />
         <option value="$PROJECT_DIR$/public/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/resources/views/front/welcome.blade.php" />
       </list>
     </option>
   </component>
@@ -287,7 +958,7 @@
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1260" />
@@ -299,7 +970,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -359,6 +1029,13 @@
               <item name="tutors" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutors" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tutors" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -370,6 +1047,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -430,12 +1108,15 @@
       <workItem from="1596541670370" duration="3647000" />
       <workItem from="1596545544315" duration="2000" />
       <workItem from="1596547183806" duration="294000" />
-      <workItem from="1596553219125" duration="2794000" />
+      <workItem from="1596553219125" duration="3342000" />
+      <workItem from="1596629963389" duration="3874000" />
+      <workItem from="1596633887235" duration="22000" />
+      <workItem from="1596634215908" duration="1277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57001000" />
+    <option name="totallyTimeSpent" value="62722000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -450,7 +1131,7 @@
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24514563" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26375404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -465,7 +1146,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.12096774" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.12096774" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="12" weight="0.32949308" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -516,23 +1197,6 @@
           <caret line="10871" column="4" selection-start-line="10871" selection-start-column="4" selection-end-line="10871" selection-end-column="4" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="9011" column="18" selection-start-line="9011" selection-start-column="18" selection-end-line="9011" selection-end-column="18" />
-          <folding>
-            <element signature="e#74632#74832#2" expanded="true" />
-            <element signature="e#75066#75215#2" expanded="true" />
-            <element signature="e#75788#75934#2" expanded="true" />
-            <element signature="e#76308#76474#1" expanded="true" />
-            <element signature="e#91574#91817#2" expanded="true" />
-            <element signature="e#92853#93102#2" expanded="true" />
-            <element signature="e#127211#127401#2" expanded="true" />
-            <element signature="e#127458#127648#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -705,13 +1369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/front/teach.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -739,10 +1396,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/responsive.css" />
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/theme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/_header.scss" />
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css" />
     <entry file="file://$PROJECT_DIR$/resources/views/front/subjects.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="76" column="11" lean-forward="true" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
+        <state relative-caret-position="340">
+          <caret line="29" column="68" lean-forward="true" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="3293" column="12" selection-start-line="3293" selection-start-column="12" selection-end-line="3293" selection-end-column="12" />
+          <folding>
+            <element signature="e#74632#74832#2" expanded="true" />
+            <element signature="e#75066#75215#2" expanded="true" />
+            <element signature="e#75788#75934#2" expanded="true" />
+            <element signature="e#76308#76474#1" expanded="true" />
+            <element signature="e#91574#91817#2" expanded="true" />
+            <element signature="e#92853#93102#2" expanded="true" />
+            <element signature="e#127211#127401#2" expanded="true" />
+            <element signature="e#127458#127648#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="321" column="18" lean-forward="true" selection-start-line="321" selection-start-column="18" selection-end-line="321" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/bg_layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="68" lean-forward="true" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -755,67 +1460,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/inc/admin-header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="79" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/theme.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6783">
-          <caret line="399" column="24" selection-start-line="399" selection-start-column="24" selection-end-line="399" selection-end-column="24" />
+        <state relative-caret-position="289">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/front/howitwork.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="722" column="14" selection-start-line="722" selection-start-column="9" selection-end-line="722" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="608" column="26" selection-start-line="608" selection-start-column="3" selection-end-line="608" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104197">
-          <caret line="891" lean-forward="true" selection-start-line="891" selection-end-line="891" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/bg_layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="35" column="90" selection-start-line="35" selection-start-column="90" selection-end-line="35" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="7242" column="27" lean-forward="true" selection-start-line="7242" selection-start-column="27" selection-end-line="7242" selection-end-column="27" />
+        <state relative-caret-position="262">
+          <caret line="7241" column="31" selection-start-line="7241" selection-start-column="31" selection-end-line="7241" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="94" lean-forward="true" selection-start-line="7" selection-start-column="94" selection-end-line="7" selection-end-column="94" />
         </state>
       </provider>
     </entry>

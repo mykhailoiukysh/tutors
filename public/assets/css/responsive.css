@@ -309,6 +309,21 @@
   .header-navigation .container .menu-toggler {
     float: right !important;
   }
+  #datatable_1 {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    line-height: 12px;
+  }
+}
+
+@media (max-width: 355px) {
+  #datatable_1 thead tr th:last-child {
+    display: none;
+  }
+  #datatable_1 tbody tr td:last-child {
+    display: none;
+  }
 }
 
 @media (max-width: 1199px) {

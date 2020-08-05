@@ -25,18 +25,17 @@
                     <div class="col-md-3"> <!-- left sidebar  -->
 
                     <nav class="dashboard-sidebar">
-                        <ul class="list-unstyled">
-                            <li>
-                                <div>
+                        <div class="list-unstyled">
+                                <span>
                                     <a href="#" class="selected type-menu" id="all" onclick="typeFunction({{$data}})"><span> All </span></a>
-                                </div>
-                            </li>
+                                </span>
                             @foreach( $type as $each)
-                                <li>
+                                 |
+                                <span>
                                     <a href="#" class="type-menu" id="{{$each['type']}}"  onclick="typeFunction({{$data}})"><span></span>{{$each['type']}}</a>
-                                </li>
+                                </span>
                             @endforeach
-                        </ul>
+                        </div>
                     </nav>
                 </div>
 
